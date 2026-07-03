@@ -58,7 +58,7 @@ defineEmits(["navigate"])
     <!-- Resume -->
 
     <a
-      href="public/Deepika_K.pdf"
+      href="/Deepika_K.pdf"
       download
       class="resume-btn"
     >

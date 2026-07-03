@@ -25,7 +25,7 @@ on performance, accessibility and clean architecture.
 </p>
 
 <div class="buttons">
-<a href="public/Deepika_K.pdf" download class="primary">
+<a href="/Deepika_K.pdf" download class="primary">
   Download Resume
 </a>
 
