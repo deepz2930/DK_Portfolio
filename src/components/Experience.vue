@@ -53,7 +53,7 @@ Xmplar Management Solutions
 
 <div class="duration">
 
-Jan 2023 — Present
+Jan 2023 — May 2026
 
 </div>
 

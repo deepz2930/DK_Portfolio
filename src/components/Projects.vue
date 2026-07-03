@@ -8,7 +8,7 @@ const projects = [
       "Developed a modern developer dashboard featuring Firebase Authentication, dark/light theme, debounced search, persistent state management, and SEO optimization with React Helmet.",
     live: "https://made-h477oedna-deepz2930s-projects.vercel.app/",
   
-    image: "public/projects/image6.png",
+    image: "/public/projects/image6.png",
     highlights: [
       "Firebase Authentication",
       "Dark / Light Theme",
@@ -24,7 +24,7 @@ const projects = [
       "Built a trip planning platform with weather integration, itinerary management, and booking features.",
     live: "https://hilltrip-planner.vercel.app/",
   
-    image: "public/projects/image8.png",
+    image: "/public/projects/image8.png",
     highlights: [
       "REST API Integration",
       "Weather API",
@@ -40,7 +40,7 @@ const projects = [
       "Modern portfolio showcasing projects, skills, and experience with smooth animations.",
     live: "https://my-portfolio-zeta-mauve-36.vercel.app/",
   
-    image: "public/projects/image10.png",
+    image: "/public/projects/image10.png",
     highlights: [
       "Responsive",
       "Animations",
@@ -56,7 +56,7 @@ const projects = [
       "Built a responsive portfolio using Vue.js and PrimeVue components.",
     live: "https://deepz2930.github.io/MadeBy_Deepika",
   
-    image: "public/projects/image9.png",
+    image: "/public/projects/image9.png",
     highlights: [
       "Vue.js",
       "PrimeVue",
@@ -72,7 +72,7 @@ const projects = [
       "Interactive e-commerce website with shopping cart and product filtering.",
     live: "https://ecommerce-nu-two-49.vercel.app/",
   
-    image: "public/projects/image7.png",
+    image: "/public/projects/image7.png",
     highlights: [
       "Shopping Cart",
       "Filtering",
