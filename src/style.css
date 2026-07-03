@@ -1,0 +1,117 @@
+:root {
+  /* Color tokens */
+  --ink: #12151c;
+  --paper: #f5f7fa;
+  --panel: #ffffff;
+  --signal: #16a97a;     /* emerald - primary accent, echoes Vue's palette without copying it */
+  --signal-dim: #0f8562;
+  --amber: #f2a93b;      /* secondary accent for tags/highlights */
+  --line: #e2e5ea;
+  --muted: #6b7280;
+  --sidebar-bg: #14171f;
+  --sidebar-line: #262b36;
+  --sidebar-text: #9aa3b2;
+
+  /* Type tokens */
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --sidebar-width: 248px;
+  --tabbar-height: 44px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p { margin: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--signal);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 2px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.section {
+  padding: 88px clamp(24px, 6vw, 72px);
+  
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.section-sub {
+  color: var(--muted);
+  font-size: 0.98rem;
+  margin-bottom: 40px;
+ 
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 3px 9px;
+  border-radius: 4px;
+  background: rgba(22, 169, 122, 0.09);
+  color: var(--signal-dim);
+  border: 1px solid rgba(22, 169, 122, 0.22);
+  white-space: nowrap;
+}
+
+.tag--amber {
+  background: rgba(242, 169, 59, 0.12);
+  color: #b5791f;
+  border-color: rgba(242, 169, 59, 0.3);
+}
+

@@ -6,10 +6,10 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/MadeBy_Deepika/',
+  base:'/DK/',
   plugins: [
     vue(),
-    vueDevTools(),
+    
   ],
   resolve: {
     alias: {
